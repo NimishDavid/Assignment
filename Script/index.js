@@ -14,7 +14,7 @@ function validate(){ //Function to validate username and password using AJAX cal
 				return true;
 			}
 			else { // Login fail. Username or password incorrect.
-				document.getElementById("error").innerHTML += response.message; // Display login failure message.
+				document.getElementById("error").innerHTML = response.message; // Display login failure message.
 				document.getElementById("error").style.display = "block";
 				return false;
 			}
