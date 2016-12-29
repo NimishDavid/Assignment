@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<script type="text/javascript" src = "Script\index.js"></script>
+	<script type="text/javascript" src = "Script\home.js"></script>
+	<link rel="stylesheet" type="text/css" href="Style\index.css">
+	<link rel="stylesheet" type="text/css" href="Style\home.css">
+</head>
+<body onload="ajaxCall()">
+
+	<div class="main_container">
+		<div class="header">
+			<h2>User Dashboard</h2>
+			<button type="button" class = "button" id = "button_logout" onclick="return confirmLogout()">Logout</button>
+		</div>
+		<div class="gallery_container" id = "gallery_container">
+			<div class="gallery" id = "gallery">
+
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
